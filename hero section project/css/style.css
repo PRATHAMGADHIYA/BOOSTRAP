@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.men{
+    margin-top: 30px;
+    line-height: 50px;
+}
+.add{
+    line-height: 150px;
+    font-size: 120px;
+}

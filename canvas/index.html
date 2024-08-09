@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- boostrap  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- icons cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <!-- header start -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./images/header/logo.png.webp"  class="w-100"alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    HOME
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">HOME ONE</a></li>
+                    <li><a class="dropdown-item" href="#">HOME TWO</a></li>
+                    <li><a class="dropdown-item" href="#">HOME THREE</a></li>
+                  </ul>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SHOP
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">SHOP</a></li>
+                  <li><a class="dropdown-item" href="#">SHOP DETAILS</a></li>
+                  <li><a class="dropdown-item" href="#">CART</a></li>
+                  <li><a class="dropdown-item" href="#">WISHLIST</a></li>
+                  <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                  <li><a class="dropdown-item" href="#">MYACCOUNT</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">PRIVACY POLICY</a></li>
+                  <li><a class="dropdown-item" href="#">TERMS& CONDITION</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  NEWS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">BLOG</a></li>
+                  <li><a class="dropdown-item" href="#">BLOG DETAILS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">CONTACT</a>
+              </li>
+            </ul>
+            <form class="d-flex mx-auto" role="search">
+              <input class="form-control ms-5" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <button class="btn btn-primary ms-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              offcanvas
+            </button>
+            <button type="button" class="btn btn-primary ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                modal
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+    <!-- off canvas start -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+        </div>
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- off canvas end -->
+    <!-- model start -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- model end -->
+    <!-- banner start -->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="display-3 fw-bold ride text-light">
+              Ride without limits
+            </div>
+            <div class="display-2 fw-bold text-secondary">
+              High Performance
+            </div>
+            <div class="display-2 fw-bold text-secondary">
+              Electric Bicycles
+            </div>
+            <p class="text-light mt-5">Performance built to handle any terrain and riding style</p>
+            <input class="btn btn-light w-25 rounded-5 text-dark fs-5" type="submit" value="Shop Bikes">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+
+    <!-- js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>

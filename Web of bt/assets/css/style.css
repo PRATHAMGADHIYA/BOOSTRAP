@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.height{
+    width:70%;
+    height: 30px;
+}
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+}
+.top-btn {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 9999;
+}
+/* page-loader */
+.hidden{
+    overflow: hidden;
+}
+.page-load{
+    background-color: #ffffff;
+    z-index: 1234567890;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+}
+.page-load a img{
+    width: 100px;
+    height: 100px;
+    animation: loader 1s infinite alternate;
+    align-items: center;
+    z-index: 14;
+    margin-top: 22%;
+    margin-left: 48%;
+    justify-content: center;
+}
+@keyframes loader {
+    0%{
+        opacity: 1;
+        transform: scale(50%);
+    }
+    100%{
+        transform: scale(100%);
+        opacity: 1;
+    }
+}
+
+.end{
+    margin-left: 30%;
+}
+.banner{
+    background-image: url(../images/banner/slideshowV1-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner1{
+    background-image: url(../images/banner/slideshowV1-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+}
+.ride{
+    margin-top:20%;
+}
+.fonts{
+    font-size: 70px;
+}
+.imagesize img{
+    width: 300px;
+    height: 300px;
+}
+.colletion{
+    background-image: url(../images/collection/bannerV1-img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.bg-img{
+    background-image: url(../images/collection/bannerV1-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34vh;
+}
+.b-img{
+    background-image: url(../images/collection/bannerV1-img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 33vh;
+}
+.system{
+    width: 125px;
+    height: 125px;
+}
+.imgsize{
+    width: 400px;
+    height: 300px;
+}
+.f-item{
+    width: 150px;
+    height: 50px;
+}
+ul>li>a:hover{
+    color:beige;
+}
